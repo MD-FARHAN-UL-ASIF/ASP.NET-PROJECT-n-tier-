@@ -1,0 +1,545 @@
+F:\sem xi\project\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll.config
+F:\sem xi\project\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\OUTLOOK-GMS.pdb
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\csc.exe
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\csc.exe.config
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\csc.rsp
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\csi.exe
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\csi.exe.config
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\csi.rsp
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.Managed.Core.targets
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.AppContext.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Collections.Immutable.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Console.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Globalization.Calendars.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Net.Http.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Net.Sockets.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Reflection.Metadata.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.ValueTuple.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Xml.XmlDocument.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\vbc.exe
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\vbc.exe.config
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\vbc.rsp
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe
+F:\sem xi\project\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe.config
+F:\sem xi\project\OUTLOOK-GMS\bin\BLL.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\EntityFramework.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\EntityFramework.SqlServer.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Newtonsoft.Json.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Net.Http.Formatting.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Web.Http.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Web.Http.WebHost.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\DAL.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\AutoMapper.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\BLL.pdb
+F:\sem xi\project\OUTLOOK-GMS\bin\EntityFramework.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\EntityFramework.SqlServer.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Newtonsoft.Json.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Net.Http.Formatting.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Web.Http.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Web.Http.WebHost.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\DAL.pdb
+F:\sem xi\project\OUTLOOK-GMS\bin\DAL.dll.config
+F:\sem xi\project\OUTLOOK-GMS\bin\AutoMapper.xml
+F:\sem xi\project\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.AssemblyReference.cache
+F:\sem xi\project\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CoreCompileInputs.cache
+F:\sem xi\project\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CopyComplete
+F:\sem xi\project\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.dll
+F:\sem xi\project\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.pdb
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.AspNetCore.Cors.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.AspNetCore.Http.Extensions.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.AspNetCore.Http.Features.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Buffers.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.ComponentModel.Annotations.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Memory.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Numerics.Vectors.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Text.Encodings.Web.dll
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.AspNetCore.Cors.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.AspNetCore.Http.Extensions.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.AspNetCore.Http.Features.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Buffers.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Memory.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Numerics.Vectors.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\sem xi\project\OUTLOOK-GMS\bin\System.Text.Encodings.Web.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll.config
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\OUTLOOK-GMS.pdb
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\csc.exe
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\csc.exe.config
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\csc.rsp
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\csi.exe
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\csi.exe.config
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\csi.rsp
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.Managed.Core.targets
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.AppContext.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Collections.Immutable.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Console.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Globalization.Calendars.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Net.Http.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Net.Sockets.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Reflection.Metadata.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.ValueTuple.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Xml.XmlDocument.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\vbc.exe
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\vbc.exe.config
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\vbc.rsp
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe.config
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\BLL.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\EntityFramework.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\EntityFramework.SqlServer.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Newtonsoft.Json.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Buffers.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.ComponentModel.Annotations.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Memory.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Net.Http.Formatting.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Numerics.Vectors.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Text.Encodings.Web.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Web.Http.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Web.Http.WebHost.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\DAL.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\AutoMapper.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\BLL.pdb
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\EntityFramework.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\EntityFramework.SqlServer.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Buffers.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Memory.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Numerics.Vectors.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Text.Encodings.Web.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Newtonsoft.Json.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Net.Http.Formatting.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Web.Http.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Web.Http.WebHost.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\DAL.pdb
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\DAL.dll.config
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\AutoMapper.xml
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.AssemblyReference.cache
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CoreCompileInputs.cache
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CopyComplete
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.pdb
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\BLL.dll.config
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Web.Cors.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Web.Http.Cors.dll
+F:\sem xi\New folder\20-43522-1\OUTLOOK-GMS\bin\System.Web.Http.Cors.xml
+<<<<<<< HEAD
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.pdb
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.exe
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.exe.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.rsp
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.exe
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.exe.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.rsp
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.AppContext.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Collections.Immutable.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Console.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Globalization.Calendars.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Net.Http.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Net.Sockets.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.ValueTuple.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.exe
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.exe.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.rsp
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.SqlServer.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Newtonsoft.Json.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Buffers.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.ComponentModel.Annotations.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Memory.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Net.Http.Formatting.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Numerics.Vectors.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Text.Encodings.Web.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Cors.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.Cors.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.WebHost.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\AutoMapper.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.pdb
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.dll.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.SqlServer.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Buffers.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Memory.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Numerics.Vectors.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Text.Encodings.Web.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.Cors.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Newtonsoft.Json.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Net.Http.Formatting.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.WebHost.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.pdb
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.dll.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\AutoMapper.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.AssemblyReference.cache
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CoreCompileInputs.cache
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CopyComplete
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.pdb
+=======
+<<<<<<< HEAD
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll.config
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.pdb
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.exe
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.exe.config
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.rsp
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.exe
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.exe.config
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.rsp
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Managed.Core.targets
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.AppContext.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Collections.Immutable.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Console.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Globalization.Calendars.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Net.Http.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Net.Sockets.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Reflection.Metadata.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.ValueTuple.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XmlDocument.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.exe
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.exe.config
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.rsp
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe.config
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.SqlServer.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Newtonsoft.Json.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Buffers.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.ComponentModel.Annotations.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Memory.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Net.Http.Formatting.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Numerics.Vectors.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Text.Encodings.Web.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Cors.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.Cors.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.WebHost.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\AutoMapper.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.pdb
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.dll.config
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.SqlServer.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Buffers.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Memory.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Numerics.Vectors.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Text.Encodings.Web.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.Cors.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Newtonsoft.Json.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Net.Http.Formatting.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.WebHost.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.pdb
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.dll.config
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\bin\AutoMapper.xml
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.AssemblyReference.cache
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CoreCompileInputs.cache
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CopyComplete
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.dll
+F:\sem xi\New folder\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.pdb
+=======
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\OUTLOOK-GMS.pdb
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.exe
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.exe.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csc.rsp
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.exe
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.exe.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\csi.rsp
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Managed.Core.targets
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.AppContext.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Collections.Immutable.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Console.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Globalization.Calendars.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Net.Http.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Net.Sockets.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Reflection.Metadata.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.ValueTuple.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XmlDocument.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.exe
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.exe.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\vbc.rsp
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\roslyn\VBCSCompiler.exe.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.SqlServer.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Newtonsoft.Json.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Buffers.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.ComponentModel.Annotations.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Memory.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Net.Http.Formatting.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Numerics.Vectors.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Text.Encodings.Web.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Cors.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.Cors.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.WebHost.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\AutoMapper.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.pdb
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\BLL.dll.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\EntityFramework.SqlServer.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Logging.Abstractions.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Options.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Extensions.Primitives.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.Net.Http.Headers.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Buffers.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Memory.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Numerics.Vectors.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Text.Encodings.Web.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.Cors.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Newtonsoft.Json.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Net.Http.Formatting.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\System.Web.Http.WebHost.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.pdb
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\DAL.dll.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\bin\AutoMapper.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.AssemblyReference.cache
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CoreCompileInputs.cache
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.csproj.CopyComplete
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\OUTLOOK-GMS\obj\Debug\OUTLOOK-GMS.pdb
+>>>>>>> dc055b9b2cf50da02a720db61cf75a8c693b1d5c
+>>>>>>> c58800a7c7aa4ecee9d23a4236f791bd51b0abab

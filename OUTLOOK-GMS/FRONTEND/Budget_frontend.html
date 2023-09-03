@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OUTLOOK</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!-- Add these lines inside the <head> section of your HTML -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+ 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script>
+        var app = angular.module("my-app", []);
+
+        app.controller("list-gmsbudget-ctrl", function($scope, $http){
+            $http.get("https://localhost:44399/api/budget/viewall")
+            .then(function(resp){
+                if(resp != null){
+                        $scope.bud = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+            },function(err){
+                $scope.error = err.data;
+            });
+            $scope.GmsBudgetList = function() {
+                $http.get("https://localhost:44399/api/budget/viewall")
+                    .then(function(resp) {
+                        $scope.bud = resp.data;
+                    }, function(err) {
+                        $scope.error = err.data;
+                    });
+            };
+
+ 
+
+ 
+
+            $scope.deleteGmsBudget = function(id) {
+                $http.delete("https://localhost:44399/api/budget/delete/" + id)
+                .then(function(resp) {
+                    $scope.bud = $scope.bud.filter(function(gmsbudget) {
+                        return gmsbudget.Id !== id;
+                    });
+                }, function(err) {
+                    console.error(err);
+                });
+            };
+
+ 
+
+            $scope.IndividualGmsBudget = function(id){
+                $http.get("https://localhost:44399/api/budget/view/" + id)
+                .then(function(resp){
+                    if(resp != null){
+                        $scope.bud = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+                },function(err){
+                    $scope.error = err.data;
+                });
+            }
+
+ 
+
+            $scope.openUpdateModal = function(gmsbudget) {
+                $scope.getCurrentGmsBudget = function(){
+                    $http.get("https://localhost:44399/api/budget/view/" + gmsbudget)
+                .then(function(resp){
+                    if(resp != null){
+                        $scope.bud = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+                },function(err){
+                    $scope.error = err.data;
+                });
+                }
+                $scope.selectedGmsBudget = angular.copy(gmsbudget); // Create a deep copy of the selected gmsbudget
+                $('#updateModal').modal('show');
+            };
+
+ 
+
+            $scope.updateGmsBudget = function() {
+                var updatedGmsBudget = {
+                    BudgetAmount: $scope.upBudgetAmount,
+                    StartDate: $scope.upStartDate,
+                    EndDate: $scope.upEndDate,
+                    Status:$scope.upStatus,
+                    SalaryPercentage:$scope.upSalaryPercentage,
+                    ProductionPercentage:$scope.upProductionPercentage,
+                    OtherExpensesPercentage:$scope.upOtherExpensesPercentage,
+                    
+                };
+                console.log($scope.selectedGmsBudget);
+                $http.put("https://localhost:44399/api/budget/update/" + $scope.selectedGmsBudget, updateGmsBudget)
+                .then(function(resp) {
+                    // Update successful, open the update modal with the updated data
+                    $scope.openUpdateModal(updateGmsBudget);
+                    $scope.GmsBudgetList();
+                    // Optionally, you can reload the list of product here
+                    // to reflect the changes in the list immediately.
+                }, function(err) {
+                    $scope.updateError = err.data;
+                });
+                $('#updateModal').modal('hide');
+            };
+
+ 
+
+            $scope.closeUpdateModal = function(){
+                $('#updateModal').modal('hide');
+            }
+
+ 
+
+        });
+</script>
+</head>
+<body ng-app="my-app" class="container mt-5">
+<div ng-controller="list-gmsbudget-ctrl">
+
+
+ 
+
+        <div class="table-responsive">
+
+
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Id</th>   
+<th scope="col">BudgetAmount</th>
+<th scope="col">StartDate</th>
+<th scope="col">EndDate</th>
+<th scope="col">Status</th>
+<th scope="col">SalaryPercentage</th>
+<th scope="col">ProductionPercentage</th>
+<th scope="col">OtherExpensesPercentage</th>
+<th scope="col">SalaryAllocation</th>
+<th scope="col">ProductionAllocation</th>
+<th scope="col">OtherExpensesAllocation</th>
+<th scope="col">RemainingBudget</th>
+
+
+
+
+</tr>
+</thead>
+<tbody class="table-group-divider">
+<tr ng-repeat="gmsbudget in bud">
+<td>{{ gmsbudget.Id }}</td>   
+<td>{{ gmsbudget.BudgetAmount }}</td>
+<td>{{ gmsbudget.StartDate }}</td>
+<td>{{ gmsbudget.EndDate }}</td>
+<td>{{ gmsbudget.Status }}</td>
+<td>{{ gmsbudget.SalaryPercentage }}</td>
+<td>{{ gmsbudget.ProductionPercentage }}</td>
+<td>{{ gmsbudget.OtherExpensesPercentage }}</td>
+<td>{{ gmsbudget.SalaryAllocation }}</td>
+<td>{{ gmsbudget.ProductionAllocation }}</td>
+<td>{{ gmsbudget.OtherExpensesAllocation }}</td>
+<td>{{ gmsbudget.RemainingBudget }}</td>
+
+
+
+<td>
+<button class="btn btn-danger" ng-click="deleteGmsBudget(gmsbudget.Id)">Delete</button>
+<button class="btn btn-primary" ng-click="openUpdateModal(gmsbudget.Id)">Update</button>
+</td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+        <form ng-submit="IndividualGmsBudget(Search)">
+<div class="form-group">
+<label for="Search">Search</label>
+<input type="text" class="form-control" id="Search" ng-model="Search" placeholder="Enter the Budget Id">
+</div>
+
+<div class="form-group">
+<button type="submit" class="btn btn-primary form-control" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Search</button>
+</div>
+</form>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h1 class="modal-title fs-5" id="staticBackdropLabel">Budget Details</h1>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Field</th>
+<th scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Id</td>
+<td>{{ bud.Id }}</td>
+</tr>
+<tr>
+<td>BudgetAmount</td>
+<td>{{ bud.BudgetAmount }}</td>
+</tr>
+<td>StartDate</td>
+<td>{{ bud.StartDate }}</td>
+</tr>
+<td>EndDate</td>
+<td>{{ bud.EndDate}}</td>
+</tr>
+<td>Status</td>
+<td>{{ bud.Status}}</td>
+</tr>
+<td>SalaryPercentage</td>
+<td>{{ bud.SalaryPercentage}}</td>
+</tr>
+<tr>
+<td>ProductionPercentage</td>
+<td>{{ bud.ProductionPercentage }}</td>
+</tr>
+<tr>
+<td>OtherExpensesPercentage</td>
+<td>{{ bud.OtherExpensesPercentage }}</td>
+</tr>
+<td>SalaryAllocation</td>
+<td>{{ bud.SalaryAllocation }}</td>
+</tr>
+<tr>
+<td>ProductionAllocation</td>
+<td>{{ bud.ProductionAllocation }}</td>
+</tr>
+<tr>
+<td>OtherExpensesAllocation</td>
+<td>{{ bud.OtherExpensesAllocation }}</td>
+</tr>
+<tr>
+<td>RemainingBudget</td>
+<td>{{ bud.RemainingBudget }}</td>
+</tr>
+
+
+
+</tbody>
+
+</table>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<p>{{ error }}</p> 
+<!-- modal -->
+
+ 
+
+<div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="updateModalLabel">Update Budget</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="closeUpdateModal()">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form ng-submit="updateGmsBudget()">
+
+<div class="form-group">
+    <label for="updateBudgetAmount">BudgetAmount</label>
+    <input type="number" class="form-control" id="upBudgetAmount" ng-model="upBudgetAmount" value="{{ selectedGmsBudget.BudgetAmount }}">
+</div>
+<div class="form-group">
+    <label for="updateStartDate">StartDate</label>
+    <input type="datetime-local" class="form-control" id="upStartDate" ng-model="upStartDate" value="{{ selectedGmsBudget.StartDate }}">
+</div>
+<div class="form-group">
+    <label for="updateEndDate">EndDate</label>
+    <input type="datetime-local" class="form-control" id="upEndDate" ng-model="upEndDate" value="{{ selectedGmsBudget.EndDate }}">
+ </div>
+<div class="form-group">
+    <label for="Status" class="form-label">Status</label>
+    <select class="form-select" id="upStatus" ng-model="upStatus">
+    <option value="Pending">Pending</option>
+    <option value="Given">Given</option>
+    <option value="Denied">Denied</option>
+    </select>
+</div>
+<div class="form-group">
+        <label for="updateSalaryPercentage">SalaryPercentage</label>
+        <input type="number" class="form-control" id="SalaryPercentage" ng-model="upSalaryPercentage" value="{{ selectedGmsBudget.SalaryPercentage }}">
+ </div>
+ <div class="form-group">
+    <label for="updateProductionPercentage">ProductionPercentage</label>
+    <input type="number" class="form-control" id="upProductionPercentage" ng-model="upProductionPercentage" value="{{ selectedGmsBudget.ProductionPercentage }}">
+</div>
+<div class="form-group">
+    <label for="updateOtherExpensesPercentage">OtherExpensesPercentage</label>
+    <input type="number" class="form-control" id="upOtherExpensesPercentage" ng-model="upOtherExpensesPercentage" value="{{ selectedGmsBudget.OtherExpensesPercentage}}">
+</div>
+
+<div class="form-group">
+<button type="submit" class="btn btn-primary form-control">Update</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+    </div>
+
+ 
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

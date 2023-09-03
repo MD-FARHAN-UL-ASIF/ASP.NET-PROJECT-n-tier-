@@ -1,0 +1,86 @@
+F:\sem xi\project\DAL\bin\Debug\DAL.dll.config
+F:\sem xi\project\DAL\bin\Debug\DAL.dll
+F:\sem xi\project\DAL\bin\Debug\DAL.pdb
+F:\sem xi\project\DAL\bin\Debug\EntityFramework.dll
+F:\sem xi\project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\sem xi\project\DAL\bin\Debug\EntityFramework.xml
+F:\sem xi\project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\sem xi\project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\sem xi\project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\sem xi\project\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\sem xi\project\DAL\obj\Debug\DAL.dll
+F:\sem xi\project\DAL\obj\Debug\DAL.pdb
+F:\sem xi\project\DAL\obj\Debug\DAL.Migrations.farhan_m1.resources
+F:\sem xi\project\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\DAL.dll.config
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\DAL.dll
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\DAL.pdb
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\EntityFramework.dll
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\EntityFramework.xml
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.dll
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.pdb
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fx.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fxv1.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fxv2.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fxxv3.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fxv4.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fxxx.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.empatt.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.onemany.resources
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\Newtonsoft.Json.dll
+F:\sem xi\New folder\20-43522-1\DAL\bin\Debug\Newtonsoft.Json.xml
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.giveUpNeeded.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fx_final.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fv.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.leave.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.leave_v2.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.lifehell.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.auth.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fhfhfh.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.fv1.resources
+F:\sem xi\New folder\20-43522-1\DAL\obj\Debug\DAL.Migrations.auth5try.resources
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\DAL.dll.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\DAL.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\DAL.pdb
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\EntityFramework.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\Newtonsoft.Json.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\EntityFramework.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\Newtonsoft.Json.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.pdb
+<<<<<<< HEAD
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\DAL.dll.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\DAL.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\DAL.pdb
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\EntityFramework.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\Newtonsoft.Json.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\EntityFramework.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\bin\Debug\Newtonsoft.Json.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.pdb
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.Migrations.initdb.resources
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.Migrations.initdb2.resources
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.Migrations.intitbd3.resources
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.Migrations.intitbd4.resources
+=======
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.Migrations.initdb.resources
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\DAL\obj\Debug\DAL.Migrations.addingOtherEntities.resources
+>>>>>>> c58800a7c7aa4ecee9d23a4236f791bd51b0abab

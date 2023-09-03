@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATTENDANCE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Add these lines inside the <head> section of your HTML -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script>
+        var app = angular.module("my-app", []);
+        
+        app.controller("list-notice-ctrl", function($scope, $http, $filter){
+            $http.get("https://localhost:44318/api/notice/all")
+            .then(function(resp){
+                if(resp != null){
+                        $scope.not = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+            },function(err){
+                $scope.error = err.data;
+            });
+            $scope.NoticeList = function() {
+                $http.get("https://localhost:44318/api/notice/all")
+                    .then(function(resp) {
+                        $scope.not = resp.data;
+                    }, function(err) {
+                        $scope.error = err.data;
+                    });
+            };
+
+
+            $scope.deleteNotice = function(id) {
+                $http.delete("https://localhost:44318/api/notice/delete/" + id)
+                .then(function(resp) {
+                    $scope.not = $scope.not.filter(function(id) {
+                        return notice.Id !== id;
+                    });
+                }, function(err) {
+                    console.error(err);
+                });
+            };
+
+            $scope.IndevidualNotice = function(id){
+                $http.get("https://localhost:44318/api/notice/" + id)
+                .then(function(resp){
+                    if(resp != null){
+                        $scope.not = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+                },function(err){
+                    $scope.error = err.data;
+                });
+            };
+
+           
+
+            $scope.openUpdateModal = function(id) {
+                $scope.getCurrentNotice = function(){
+                    $http.get("https://localhost:44318/api/notice/" + id)
+                .then(function(resp){
+                    if(resp != null){
+                        $scope.not = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+                },function(err){
+                    $scope.error = err.data;
+                });
+                }
+                $scope.selectedNotice = angular.copy(notice); // Create a deep copy of the selected attendance
+                $('#updateModal').modal('show');
+            };
+
+            $scope.updatedNotice = function() {
+                var updatedNotice = {
+                    Title: $scope.upTitle,
+                    Content: $scope.upContent,
+                    Date: $filter('date')($scope.upDate, 'yyyy-MM-dd')
+                };
+                console.log($scope.selectedNotice);
+                $http.put("https://localhost:44318/api/notice/update/" + $scope.selectedNotice, updatedNotice)
+                .then(function(resp) {
+                    // Update successful, open the update modal with the updated data
+                    $scope.openUpdateModal(updatedNotice);
+                    $scope.NoticeList();
+                    // Optionally, you can reload the list of employee here
+                    // to reflect the changes in the list immediately.
+                }, function(err) {
+                    $scope.updateError = err.data;
+                });
+                $('#updateModal').modal('hide');
+            };
+
+            $scope.closeUpdateModal = function(){
+                $('#updateModal').modal('hide');
+            }
+
+        });
+    </script>
+
+</head>
+<body ng-app="my-app" class="container mt-5">
+    <div ng-controller="list-notice-ctrl">
+        <div ng-include="'layout/navAadmin.html'"></div>
+
+
+        <div class="table-responsive">
+            
+        
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Notice Id</th>
+                <th scope="col">Title</th>
+                <th scope="col">Content</th>
+                <th scope="col">Date</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr ng-repeat="notice in not">
+                    <td>{{ notice.Id }}</td>
+                    <td>{{ notice.Title }}</td>
+                    <td>{{ notice.Content }}</td>
+                    <td>{{ notice.Date }}</td>
+                    <td>
+                        <!-- <button class="btn btn-danger" ng-click="deleteNotice(notice.Id)">Delete</button> -->
+                        <!-- <button class="btn btn-primary" ng-click="openUpdateModal(notice.Id)">Update</button> -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+        
+        
+        
+        <!-- Modal -->
+        <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Attendance Details</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Field</th>
+                                <th scope="col">Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>AttendanceId</td>
+                                <td>{{ att.AttendanceId }}</td>
+                            </tr>
+                            <tr>
+                                <td>EmployeeId</td>
+                                <td>{{ att.EmployeeId }}</td>
+                            </tr>
+                            <tr>
+                                <td>Date</td>
+                                <td>{{ att.Date }}</td>
+                            </tr>
+                            <tr>
+                                <td>Clock In-Time</td>
+                                <td>{{ att.ClockInTime }}</td>
+                            </tr>
+                            <tr>
+                                <td>Clock Out-Time</td>
+                                <td>{{ att.ClockOutTime }}</td>
+                            </tr>
+                            
+                        </tbody>
+                                
+                    </table>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <p>{{ error }}</p>  -->
+        <!-- modal -->
+
+        <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="updateModalLabel">Update Notice</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="closeUpdateModal()">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form ng-submit="updatedNotice()">
+                            <div class="form-group">
+                                <label for="upTitle">Tittle</label>
+                                <input type="text" class="form-control" id="upTitle" ng-model="upTitle" value="{{ selectedNotice.Title }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="upContent">Content</label>
+                                <input type="text" class="form-control" id="upContent" ng-model="upContent" value="{{ selectedNotice.Content }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="upDate">Clock In-Time</label>
+                                <input type="datetime-local" class="form-control" id="upDate" ng-model="upDate" value="{{ selectedNotice.Date }}">
+                            </div>
+                                       
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary form-control">Update</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

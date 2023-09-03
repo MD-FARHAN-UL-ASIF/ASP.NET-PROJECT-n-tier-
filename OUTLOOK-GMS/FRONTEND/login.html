@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script>
+        var app = angular.module("login-app", []);
+        
+        app.controller("login-ctrl", function($scope, $http, $window){
+            $scope.login = function(){
+                var loginData = {
+                    Email: $scope.Email,
+                    Password: $scope.Password
+                };
+                $http.post("https://localhost:44318/api/login", loginData)
+                .then(function(resp){
+                    // Successful login
+                    console.log("Login successful");
+                    console.log(resp.data);
+                    
+                    // Redirect to list.html on successful login
+                    $window.location.href = "list.html";
+                },
+                function(err){
+                    // Failed login
+                    console.error("Login failed");
+                    $scope.error = "Login failed. Please check your credentials.";
+                });
+            };
+        });
+    </script>
+</head>
+<body ng-app="login-app">
+    <div ng-controller="login-ctrl" class="container mt-5">
+        <h2>Login</h2>
+        <form ng-submit="login()">
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" ng-model="Email" required>
+            </div>
+            <div class="mb-3">
+                <label for="Password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="Password" ng-model="Password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+        <p>{{ error }}</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

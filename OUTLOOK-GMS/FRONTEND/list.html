@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Add these lines inside the <head> section of your HTML -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script>
+        var app = angular.module("my-app", []);
+        
+        app.controller("list-employee-ctrl", function($scope, $http){
+            $http.get("https://localhost:44318/api/employee/all")
+            .then(function(resp){
+                if(resp != null){
+                        $scope.emp = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+            },function(err){
+                $scope.error = err.data;
+            });
+            $scope.EmployeeList = function() {
+                $http.get("https://localhost:44318/api/employee/all")
+                    .then(function(resp) {
+                        $scope.emp = resp.data;
+                    }, function(err) {
+                        $scope.error = err.data;
+                    });
+            };
+
+
+            $scope.deleteEmployee = function(id) {
+                $http.delete("https://localhost:44318/api/employee/delete/" + id)
+                .then(function(resp) {
+                    $scope.emp = $scope.emp.filter(function(employee) {
+                        return employee.Id !== id;
+                    });
+                }, function(err) {
+                    console.error(err);
+                });
+            };
+
+            $scope.IndevidualEmployee = function(id){
+                $http.get("https://localhost:44318/api/employee/" + id)
+                .then(function(resp){
+                    if(resp != null){
+                        $scope.emp = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+                },function(err){
+                    $scope.error = err.data;
+                });
+            }
+
+            $scope.openUpdateModal = function(employee) {
+                $scope.getCurrentEmployee = function(){
+                    $http.get("https://localhost:44318/api/employee/" + employee)
+                .then(function(resp){
+                    if(resp != null){
+                        $scope.emp = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+                },function(err){
+                    $scope.error = err.data;
+                });
+                }
+                $scope.selectedEmployee = angular.copy(employee); // Create a deep copy of the selected employee
+                $('#updateModal').modal('show');
+            };
+
+            $scope.updateEmployee = function() {
+                var updatedEmployee = {
+                    Name: $scope.upName,
+                    UserName: $scope.upUserName,
+                    PhoneNumber: $scope.upPhoneNumber,
+                    Email: $scope.upEmail,
+                    NID:$scope.upNID,
+                    DOB:$scope.upDOB,
+                    Gender:$scope.upGender,
+                    Address: $scope.upAddress,
+                    Status:$scope.upStatus,
+                    Image:$scope.upImage,
+                    CreatedAt:$scope.upCreatedAt,
+                    UserType:$scope.upUserType,
+                    Department:$scope.upDepartment,
+                    Salary:$scope.upSalary,
+                    Password:$scope.emp.password
+                };
+                console.log($scope.selectedEmployee);
+                $http.put("https://localhost:44318/api/employee/update/" + $scope.selectedEmployee, updatedEmployee)
+                .then(function(resp) {
+                    // Update successful, open the update modal with the updated data
+                    $scope.openUpdateModal(updatedEmployee);
+                    $scope.EmployeeList();
+                    // Optionally, you can reload the list of employee here
+                    // to reflect the changes in the list immediately.
+                }, function(err) {
+                    $scope.updateError = err.data;
+                });
+                $('#updateModal').modal('hide');
+            };
+
+            $scope.closeUpdateModal = function(){
+                $('#updateModal').modal('hide');
+            }
+
+        });
+    </script>
+
+</head>
+<body ng-app="my-app" class="container mt-5">
+    <div ng-controller="list-employee-ctrl">
+        <div ng-include="'layout/navAadmin.html'"></div>
+
+
+        <div class="table-responsive">
+            
+        
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col;">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">UserName</th>
+                <th scope="col">PhoneNumber</th>
+                <th scope="col">Email</th>
+                <th scope="col">NID</th>
+                <th scope="col">DOB</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Address</th>
+                <th scope="col">Status</th>
+                <th scope="col">Image</th>
+                <th scope="col">CreatedAt</th>
+                <th scope="col">UserType</th>
+                <th scope="col">Department</th>
+                <th scope="col">Salary</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr ng-repeat="employee in emp">
+                    <td>{{ employee.Id }}</td>
+                    <td>{{ employee.Name }}</td>
+                    <td>{{ employee.UserName }}</td>
+                    <td>{{ employee.PhoneNumber }}</td>
+                    <td>{{ employee.Email }}</td>
+                    <td>{{ employee.NID }}</td>
+                    <td>{{ employee.DOB }}</td>
+                    <td>{{ employee.Gender }}</td>
+                    <td>{{ employee.Address }}</td>
+                    <td>{{ employee.Status }}</td>
+                    <td>{{ employee.Image }}</td>
+                    <td>{{ employee.CreatedAt }}</td>
+                    <td>{{ employee.UserType }}</td>
+                    <td>{{ employee.Department }}</td>
+                    <td>{{ employee.Salary }}</td>
+                    <td>
+                        <button class="btn btn-danger" ng-click="deleteEmployee(employee.Id)">Delete</button>
+                        <button class="btn btn-primary" ng-click="openUpdateModal(employee.Id)">Update</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form ng-submit="IndevidualEmployee(Search)">
+            <div class="form-group">
+                <label for="Search">Search</label>
+                <input type="text" class="form-control" id="Search" ng-model="Search" placeholder="Enter the Employee Id">
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary form-control" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Search</button>
+            </div>
+        </form>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Eployee Details</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Field</th>
+                                <th scope="col">Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Name</td>
+                                <td>{{ emp.Name }}</td>
+                            </tr>
+                            <tr>
+                                <td>UserName</td>
+                                <td>{{ emp.UserName }}</td>
+                            </tr>
+                            <tr>
+                                <td>PhoneNumber</td>
+                                <td>{{ emp.PhoneNumber }}</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>{{ emp.Email }}</td>
+                            </tr>
+                            <tr>
+                                <td>NID</td>
+                                <td>{{ emp.NID }}</td>
+                            </tr>
+                            <tr>
+                                <td>DOB</td>
+                                <td>{{ emp.DOB }}</td>
+                            </tr>
+                            <tr>
+                                <td>Gender</td>
+                                <td>{{ emp.Gender }}</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>{{ emp.Address }}</td>
+                            </tr>
+                            <tr>
+                                <td>Status</td>
+                                <td>{{ emp.Status }}</td>
+                            </tr>
+                            <tr>
+                                <td>Image</td>
+                                <td>{{ emp.Image }}</td>
+                            </tr>
+                            <tr>
+                                <td>CreatedAt</td>
+                                <td>{{ emp.CreatedAt }}</td>
+                            </tr>
+                            <tr>
+                                <td>UserType</td>
+                                <td>{{ emp.UserType }}</td>
+                            </tr>
+                            <tr>
+                                <td>Department</td>
+                                <td>{{ emp.Department }}</td>
+                            </tr>
+                            <tr>
+                                <td>Salary</td>
+                                <td>{{ emp.Salary }}</td>
+                            </tr>
+                        </tbody>
+                                
+                    </table>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <p>{{ error }}</p> 
+        <!-- modal -->
+
+        <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="updateModalLabel">Update Employee</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="closeUpdateModal()">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form ng-submit="updateEmployee()">
+                            <div class="form-group">
+                                <label for="updateName">Name</label>
+                                <input type="text" class="form-control" id="updateName" ng-model="upName" value="{{ selectedEmployee.Name }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateUserName">User Name</label>
+                                <input type="text" class="form-control" id="updateUserName" ng-model="upUserName" value="{{ selectedEmployee.UserName }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updatePhoneNumber">Phone Number</label>
+                                <input type="text" class="form-control" id="updatePhoneNumber" ng-model="upPhoneNumber" value="{{ selectedEmployee.PhoneNumber }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateEmail">Email</label>
+                                <input type="email" class="form-control" id="updateEmail" ng-model="upEmail" value="{{ selectedEmployee.Email }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateName">NID</label>
+                                <input type="text" class="form-control" id="updateNID" ng-model="upNID" value="{{ selectedEmployee.NID }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateDOB">Date of Birth</label>
+                                <input type="date" class="form-control" id="updateDOB" ng-model="upDOB" value="{{ selectedEmployee.DOB }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateGender">Gender</label>
+                                <select class="form-control" id="updateGender" ng-model="upGender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="updateAddress">Address</label>
+                                <input type="text" class="form-control" id="updateAddress" ng-model="upAddress" value="{{ selectedEmployee.Address }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateStatus">Status</label>
+                                <input type="text" class="form-control" id="updateStatus" ng-model="upStatus" value="{{ selectedEmployee.Status }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateImage">Image</label>
+                                <input type="text" class="form-control" id="updateImage" ng-model="upImage" value="{{ selectedEmployee.Image }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateCreatedAt">Created At</label>
+                                <input type="datetime-local" class="form-control" id="updateCreatedAt" ng-model="upCreatedAt" value="{{ selectedEmployee.CreatedAt }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateUserType">User Type</label>
+                                <select class="form-control" id="updateUserType" ng-model="upUserType">
+                                    <option value="Manager">Manager</option>
+                                    <option value="Assistance Manager">Assistance Manager</option>
+                                    <option value="General Employee">General Employee</option>
+                                    <option value="Field Manager">Field Manager</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="updateDepartment">Department</label>
+                                <select class="form-control" id="updateDepartment" ng-model="upDepartment">
+                                    <option value="HR">HR</option>
+                                    <option value="ACCOUNTS">ACCOUNTS</option>
+                                    <option value="PRODUCTION">PRODUCTION</option>
+                                    <option value="wearhouse">Wearhouse</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="updateSalary">Salary</label>
+                                <input type="text" class="form-control" id="updateSalary" ng-model="upSalary" value="{{ selectedEmployee.Salary }}">
+                            </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary form-control">Update</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

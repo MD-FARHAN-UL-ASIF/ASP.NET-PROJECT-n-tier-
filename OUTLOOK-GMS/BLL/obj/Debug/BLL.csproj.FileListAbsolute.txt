@@ -1,0 +1,96 @@
+F:\sem xi\project\BLL\bin\Debug\BLL.dll
+F:\sem xi\project\BLL\bin\Debug\BLL.pdb
+F:\sem xi\project\BLL\bin\Debug\AutoMapper.dll
+F:\sem xi\project\BLL\bin\Debug\DAL.dll
+F:\sem xi\project\BLL\bin\Debug\EntityFramework.dll
+F:\sem xi\project\BLL\bin\Debug\DAL.pdb
+F:\sem xi\project\BLL\bin\Debug\DAL.dll.config
+F:\sem xi\project\BLL\bin\Debug\AutoMapper.xml
+F:\sem xi\project\BLL\bin\Debug\EntityFramework.xml
+F:\sem xi\project\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\sem xi\project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\sem xi\project\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\sem xi\project\BLL\obj\Debug\BLL.dll
+F:\sem xi\project\BLL\obj\Debug\BLL.pdb
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\BLL.dll
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\BLL.pdb
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\AutoMapper.dll
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\DAL.dll
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\EntityFramework.dll
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\DAL.pdb
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\DAL.dll.config
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\AutoMapper.xml
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\EntityFramework.xml
+F:\sem xi\New folder\20-43522-1\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\sem xi\New folder\20-43522-1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\sem xi\New folder\20-43522-1\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\sem xi\New folder\20-43522-1\BLL\obj\Debug\BLL.dll
+F:\sem xi\New folder\20-43522-1\BLL\obj\Debug\BLL.pdb
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\BLL.dll.config
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\Newtonsoft.Json.dll
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\Newtonsoft.Json.xml
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+F:\sem xi\New folder\20-43522-1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+<<<<<<< HEAD
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\BLL.dll.config
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\BLL.dll
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\BLL.pdb
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\AutoMapper.dll
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\DAL.dll
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.dll
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.SqlServer.dll
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\Newtonsoft.Json.dll
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\DAL.pdb
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\DAL.dll.config
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\AutoMapper.xml
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.xml
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.SqlServer.xml
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\bin\Debug\Newtonsoft.Json.xml
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\obj\Debug\BLL.dll
+F:\sem xi\New folder\OUTLOOK-GMS\BLL\obj\Debug\BLL.pdb
+=======
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\BLL.dll.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\BLL.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\BLL.pdb
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\AutoMapper.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\DAL.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.SqlServer.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\Newtonsoft.Json.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\DAL.pdb
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\DAL.dll.config
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\AutoMapper.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.SqlServer.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\Newtonsoft.Json.xml
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.dll
+G:\codes\adv c#\Final Project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.pdb
+<<<<<<< HEAD
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\BLL.dll.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\BLL.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\BLL.pdb
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\AutoMapper.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\DAL.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\Newtonsoft.Json.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\DAL.pdb
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\DAL.dll.config
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\AutoMapper.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\bin\Debug\Newtonsoft.Json.xml
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.dll
+E:\Full and Final_project\ADV.NET-PROJECT\OUTLOOK-GMS\BLL\obj\Debug\BLL.pdb
+=======
+>>>>>>> dc055b9b2cf50da02a720db61cf75a8c693b1d5c
+>>>>>>> c58800a7c7aa4ecee9d23a4236f791bd51b0abab

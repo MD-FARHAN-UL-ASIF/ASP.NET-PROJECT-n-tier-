@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OUTLOOK</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script>
+        var app = angular.module("my-app", []);
+
+        app.controller("create-product-ctrl", function($scope, $http){
+            $scope.create = function(){
+                var productDTO = {
+                    name: $scope.name,
+                    perprice: $scope.perprice,
+                    totalprice: $scope.totalprice,
+                    quantity: $scope.quantity,
+                    date:$scope.date,
+                };
+                $http.post("https://localhost:44399/api/product/create", productDTO)
+                .then(function(resp){
+                    $scope.success = "Product Created Successfully.";
+                    console.log("submit called");
+                    console.log(resp.data);
+                },
+                function(err){
+                    $scope.error = err.data;
+                });
+            };
+        });
+</script>
+</head>
+<body ng-app="my-app">
+<div ng-controller="create-product-ctrl" class="container mt-5">
+<form ng-submit="create()">
+<div class="mb-3">
+<label for="name" class="form-label">Name</label>
+<input type="text" class="form-control" id="name" ng-model="name">
+</div>
+<div class="mb-3">
+<label for="perprice" class="form-label">Per Price</label>
+<input type="text" class="form-control" id="perprice" ng-model="perprice">
+</div>
+<div class="mb-3">
+<label for="totalprice" class="form-label">Total Price</label>
+<input type="text" class="form-control" id="totalprice" ng-model="totalprice">
+</div>
+<div class="mb-3">
+<label for="quantity" class="form-label">Quantity</label>
+<input type="text" class="form-control" id="quantity" ng-model="quantity">
+</div>
+
+<div class="mb-3">
+<label for="date" class="form-label">Date</label>
+<input type="date" class="form-control" id="date" ng-model="date">
+</div>
+
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<p>{{ success }}</p>
+<p>{{ error }}</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

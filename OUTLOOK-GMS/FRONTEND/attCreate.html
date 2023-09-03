@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIVE ATTENDANCE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script>
+        var app = angular.module("my-app", []);
+        
+        app.controller("create-attendance-ctrl", function($scope, $http,$filter){
+            $scope.create = function(){
+                var formattedDate = $filter('dateFormat')($scope.Date);
+                var attendanceDTO = {
+                    EmployeeId: $scope.EmployeeId,
+                    Date: formattedDate,
+                    ClockInTime: $scope.ClockInTime,
+                    ClockOutTime: $scope.ClockOutTime,
+                };
+                $http.post("https://localhost:44318/api/attendance/create", attendanceDTO)
+                .then(function(resp){
+                    $scope.success = "Attendance Created Successfully.";
+                    console.log("submit called");
+                    console.log(resp.data);
+                },
+                function(err){
+                    $scope.error = err.data;
+                });
+            };
+            
+        });
+        app.filter("dateFormat", function($filter) {
+            return function(input) {
+                return $filter('date')(input, 'yyyy-MM-ddTHH:mm:ss');
+            };
+        });
+    </script>
+</head>
+<body ng-app="my-app">
+    <div ng-controller="create-attendance-ctrl" class="container mt-5">
+        <div ng-include="'layout/navAadmin.html'"></div>
+        <form ng-submit="create()">
+            <div class="mb-3">
+                <label for="EmployeeId" class="form-label">Employee Id</label>
+                <input type="number" class="form-control" id="EmployeeId" ng-model="EmployeeId">
+            </div>
+            <div class="mb-3">
+                <label for="Date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="Date" ng-model="Date">
+            </div>
+            <div class="mb-3">
+                <label for="ClockInTime" class="form-label">Clock In-Time</label>
+                <input type="datetime-local" class="form-control" id="ClockInTime" ng-model="ClockInTime">
+            </div>
+            <div class="mb-3">
+                <label for="ClockOutTime" class="form-label">Clock Out-Time</label>
+                <input type="datetime-local" class="form-control" id="ClockOutTime" ng-model="ClockOutTime">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <p>{{ success }}</p>
+        <p>{{ error }}</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

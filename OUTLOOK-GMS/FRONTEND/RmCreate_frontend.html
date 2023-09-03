@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<tihttps://open.spotify.com/track/7s6yy0SWZ4rluoQZsvJa2Dtle>OUTLOOK</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script>
+        var app = angular.module("my-app", []);
+
+        app.controller("create-rawmaterial-ctrl", function($scope, $http){
+            $scope.create = function(){
+                var rawmaterialDTO = {
+                    name: $scope.name,
+                    supplier: $scope.supplier,
+                    quantity: $scope.quantity,
+                    percost: $scope.percost,
+                    totalcost: $scope.totalcost,
+                    date:$scope.date,
+                };
+                $http.post("https://localhost:44318/api/rawmaterial/create", rawmaterialDTO)
+                .then(function(resp){
+                    $scope.success = "RawMaterial Created Successfully.";
+                    console.log("submit called");
+                    console.log(resp.data);
+                },
+                function(err){
+                    $scope.error = err.data;
+                });
+            };
+        });
+</script>
+</head>
+<body ng-app="my-app">
+<div ng-controller="create-rawmaterial-ctrl" class="container mt-5">
+<form ng-submit="create()">
+<div class="mb-3">
+<label for="name" class="form-label">Name</label>
+<input type="text" class="form-control" id="name" ng-model="name">
+</div>
+<div class="mb-3">
+<label for="supplier" class="form-label">Supplier</label>
+<input type="text" class="form-control" id="supplier" ng-model="supplier">
+</div>
+<div class="mb-3">
+<label for="quantity" class="form-label">Quantity</label>
+<input type="number" class="form-control" id="quantity" ng-model="quantity">
+</div>
+<div class="mb-3">
+<label for="percost" class="form-label">Per Cost</label>
+ <input type="number" class="form-control" id="percost" ng-model="percost">
+ </div>
+<div class="mb-3">
+<label for="totalcost" class="form-label">Total Cost</label>
+<input type="number" class="form-control" id="totalcost" ng-model="totalcost">
+</div>
+
+<div class="mb-3">
+<label for="date" class="form-label">Date</label>
+<input type="date" class="form-control" id="date" ng-model="date">
+</div>
+
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<p>{{ success }}</p>
+<p>{{ error }}</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

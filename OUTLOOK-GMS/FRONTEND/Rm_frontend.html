@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OUTLOOK</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!-- Add these lines inside the <head> section of your HTML -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+ 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script>
+        var app = angular.module("my-app", []);
+
+        app.controller("list-rawmaterial-ctrl", function($scope, $http){
+            $http.get("https://localhost:44318/api/rawmaterial/viewall")
+            .then(function(resp){
+                if(resp != null){
+                        $scope.rm = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+            },function(err){
+                $scope.error = err.data;
+            });
+            $scope.RawmaterialList = function() {
+                $http.get("https://localhost:44318/api/rawmaterial/viewall")
+                    .then(function(resp) {
+                        $scope.rm = resp.data;
+                    }, function(err) {
+                        $scope.error = err.data;
+                    });
+            };
+
+ 
+
+ 
+
+            $scope.deleteRawMaterial = function(id) {
+                $http.delete("https://localhost:44318/api/rawmaterial/delete/" + id)
+                .then(function(resp) {
+                    $scope.rm = $scope.rm.filter(function(rawmaterial) {
+                        return rawmaterial.Id !== id;
+                    });
+                }, function(err) {
+                    console.error(err);
+                });
+            };
+
+ 
+
+            $scope.IndividualRawMaterial = function(id){
+                $http.get("https://localhost:44318/api/rawmaterial/view/" + id)
+                .then(function(resp){
+                    if(resp != null){
+                        $scope.rm = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+                },function(err){
+                    $scope.error = err.data;
+                });
+            }
+
+ 
+
+            $scope.openUpdateModal = function(rawmaterial) {
+                $scope.getCurrentRawMaterial = function(){
+                    $http.get("https://localhost:44318/api/rawmaterial/" + rawmaterial)
+                .then(function(resp){
+                    if(resp != null){
+                        $scope.rm = resp.data;
+                    }
+                    else{
+                        alart("No records found");
+                    }
+                },function(err){
+                    $scope.error = err.data;
+                });
+                }
+                $scope.selectedRawMaterial = angular.copy(rawmaterial); // Create a deep copy of the selected employee
+                $('#updateModal').modal('show');
+            };
+
+ 
+
+            $scope.updateRawMaterial = function() {
+                var updatedProduct = {
+                    name: $scope.upname,
+                    supplier: $scope.upsupplier,
+                    quantity: $scope.upquantity,
+                    percost: $scope.uppercost,
+                    totalcost: $scope.uptotalcost,
+                    date:$scope.update,
+                    
+                };
+                console.log($scope.selectedRawMaterial);
+                $http.put("https://localhost:44318/api/rawmaterial/update/" + $scope.selectedRawMaterial, updatedRawMaterial)
+                .then(function(resp) {
+                    // Update successful, open the update modal with the updated data
+                    $scope.openUpdateModal(updatedRawMaterial);
+                    $scope.RawMaterialList();
+                    // Optionally, you can reload the list of product here
+                    // to reflect the changes in the list immediately.
+                }, function(err) {
+                    $scope.updateError = err.data;
+                });
+                $('#updateModal').modal('hide');
+            };
+
+ 
+
+            $scope.closeUpdateModal = function(){
+                $('#updateModal').modal('hide');
+            }
+
+ 
+
+        });
+</script>
+</head>
+<body ng-app="my-app" class="container mt-5">
+<div ng-controller="list-rawmaterial-ctrl">
+    <div ng-include="'AcSidebar.html'"></div>
+
+
+ 
+
+        <div class="table-responsive">
+
+
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Name</th>
+<th scope="col">Supplier</th>
+<th scope="col">Quantity</th>
+<th scope="col">Per Cost</th>
+<th scope="col">Total Cost</th>
+<th scope="col">Date</th>
+
+</tr>
+</thead>
+<tbody class="table-group-divider">
+<tr ng-repeat="rawmaterial in rm">
+<td>{{ rawmaterial.name }}</td>
+<td>{{ rawmaterial.supplier }}</td>
+<td>{{ rawmaterial.quantity }}</td>
+<td>{{ rawmaterial.percost }}</td>
+<td>{{ rawmaterial.totalcost }}</td>
+<td>{{ rawmaterial.date }}</td>
+
+<td>
+<button class="btn btn-danger" ng-click="deleteRawMaterial(rawmaterial.Id)">Delete</button>
+<button class="btn btn-primary" ng-click="openUpdateModal(rawmaterial.Id)">Update</button>
+</td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+<form ng-submit="IndividualRawMaterial(Search)">
+<div class="form-group">
+<label for="Search">Search</label>
+<input type="text" class="form-control" id="Search" ng-model="Search" placeholder="Enter the RawMaterial Id">
+</div>
+
+<div class="form-group">
+<button type="submit" class="btn btn-primary form-control" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Search</button>
+</div>
+</form>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h1 class="modal-title fs-5" id="staticBackdropLabel">RawMaterial Details</h1>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Field</th>
+<th scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>{{ rm.name }}</td>
+</tr>
+<tr>
+<td>Supplier</td>
+<td>{{ rm.supplier }}</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td>{{ rm.quantity }}</td>
+</tr>
+<tr>
+<td>PerCost</td>
+<td>{{ rm.percost }}</td>
+</tr>
+<td>TotalCost</td>
+<td>{{ rm.totalcost }}</td>
+</tr>
+<tr>
+<td>Date</td>
+<td>{{ rm.date }}</td>
+</tr>
+
+</tbody>
+
+</table>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<p>{{ error }}</p> 
+<!-- modal -->
+
+ 
+
+        <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="updateModalLabel">Update RawMaterial</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="closeUpdateModal()">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form ng-submit="updateRawMaterial()">
+<div class="form-group">
+<label for="updatename">Name</label>
+<input type="text" class="form-control" id="upname" ng-model="upname" value="{{ selectedRawMaterial.name }}">
+</div>
+<div class="form-group">
+<label for="updatesupplier">Supplier</label>
+<input type="text" class="form-control" id="upsupplier" ng-model="upsupplier" value="{{ selectedRawMaterial.supplier }}">
+</div>
+<div class="form-group">
+    <label for="updatequantity">Quantity</label>
+    <input type="text" class="form-control" id="upquantity" ng-model="upquantity" value="{{ selectedRawMaterial.quantity }}">
+    </div>
+<div class="form-group">
+<label for="updatepercost">PerCost</label>
+<input type="text" class="form-control" id="uppercost" ng-model="uppercost" value="{{ selectedRawMaterial.percost }}">
+</div>
+<div class="form-group">
+<label for="updatetotalcost">Totalcost</label>
+<input type="text" class="form-control" id="uptotalcost" ng-model="uptotalcost" value="{{ selectedRawMaterial.totalcost }}">
+</div>
+<div class="form-group">
+<label for="updatedate">Date</label>
+<input type="datetime-local" class="form-control" id="update" ng-model="update" value="{{ selectedRawMaterial.date }}">
+</div>
+
+<div class="form-group">
+<button type="submit" class="btn btn-primary form-control">Update</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+    </div>
+
+ 
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
